@@ -1,0 +1,127 @@
+
+.a{ 
+float:left; 
+}
+.b{ 
+float: right; }
+
+#header-search {
+  display: inline-block; width: 200px; height: 32px;
+  color:black; border:1px ridge #aaa; outline: none;margin-left: 10px;margin-top:6px;
+  font-size: 12pt; padding: 4px 28px 4px 64px; vertical-align: middle;
+}
+.fa fa-search{
+font-size: 20px;
+margin-right: 120px;
+}
+.container{
+  width: 35%;
+  margin: 30px;
+  margin-left: 45px;
+  
+
+}
+.select-container{
+  padding: 5px;
+  border:1px solid #aaa;
+  margin-top: -25px;
+  margin-left: -30px;
+}
+.select-container select{
+  width: 100%;
+  height: 15px;
+  border: 0;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+
+   }
+  .container-1{
+  width: 60%;
+  margin: 0px;
+  
+
+}
+.select-container-1{
+  padding: 5px;
+  border:1px solid #aaa;
+  margin-top: -32px;
+  margin-left:5px;
+  width: 188px;
+  height: 20px;
+
+}
+.select-container-1 select{
+  width: 100%;
+  height: 15px;
+  border: 0;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+   }
+.heading {
+  font-size: 25px;
+  margin-left: -110px;}
+  
+  .fa {
+  font-size: 25px;
+}
+h2{
+border:1px ridge;
+width: 25px;
+height:25px;
+margin-left:20px;
+background-color: #990099;
+margin-top:-59px;
+border-radius: 5px;
+border: none;
+}
+
+.bar-5 {width: 60%; height: 18px;margin-left: 140px;margin-top: -25px; background-color: #f1f1f1;}
+.bar-4 {width: 30%; height: 18px; background-color: #f1f1f1;margin-left: 138px;margin-top: -33px;}
+.bar-3 {width: 10%; height: 18px; background-color: #f1f1f1;margin-left: 138px;margin-top: -32px;}
+.bar-2 {width: 4%; height: 18px; background-color: #f1f1f1;margin-left: 140px;margin-top: -34px;}
+.bar-1 {width: 15%; height: 18px; background-color: #f1f1f1;margin-left:140px;margin-top:-30px;}
+
+.side {
+  float: left;
+  width: 35%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+.right {
+  text-align: right;
+  margin-left: 200px;
+  margin-top: -13px;
+}
+ .pagination{
+      display: inline-block;
+        margin-left: 38%;
+     }
+     .pagination a{
+      color: black;
+  
+      padding: 8px 16px;
+      text-decoration: none;
+     }
+     .pagination a.active{
+      background-color: #4caf50;
+     }
+     .pagination a:hover:not(.active){
+      background-color: #ddd;
+     }
+
+
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
