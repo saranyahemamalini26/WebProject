@@ -72,7 +72,7 @@ width: 25px;
 height:25px;
 margin-left:20px;
 background-color: #990099;
-margin-top:-50px;
+margin-top:-55px;
 border-radius: 5px;
 border: none;
 }
@@ -101,7 +101,7 @@ border: none;
 }
  .pagination{
       display: inline-block;
-        margin-left:10%;
+        margin-left:30%;
      }
      .pagination a{
       color: black;
