@@ -101,7 +101,7 @@ border: none;
 }
  .pagination{
       display: inline-block;
-        margin-left: 30%;
+        margin-left:10%;
      }
      .pagination a{
       color: black;
